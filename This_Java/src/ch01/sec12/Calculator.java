@@ -1,5 +1,5 @@
 package ch01.sec12;
-
+// 교재 p.30
 public class Calculator {
 	public static void main(String[] args) {
 		int x = 1;					// 변수 x를 선언하고 1을 저장

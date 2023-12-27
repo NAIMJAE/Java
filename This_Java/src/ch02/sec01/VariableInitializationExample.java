@@ -1,5 +1,5 @@
 package ch02.sec01;
-
+// 교재 p.38
 public class VariableInitializationExample {
 	public static void main(String[] args) {
 		int hour = 3;
