@@ -72,7 +72,7 @@ public class ArrayTest {
 			}
 		};
 		System.out.println();
-		// 3차원 배열
+		// 3차원 배열  
 		int [][][] arr3d = {{{1,2,3},
 							 {4,5,6,},
 							 {7,8,9}},

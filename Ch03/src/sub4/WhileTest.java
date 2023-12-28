@@ -9,7 +9,7 @@ package sub4;
 public class WhileTest {
 	public static void main(String[] args) {
 		
-		// 1부터 10까지 합
+		// 1부터 10까지 합  
 		int sum = 0;
 		int k = 1;
 		
