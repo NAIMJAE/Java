@@ -1,4 +1,4 @@
-package ch01.sec12;
+package ch01;
 // 교재 p.30
 public class Calculator {
 	public static void main(String[] args) {

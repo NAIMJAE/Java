@@ -1,4 +1,4 @@
-package ch02.sec02;
+package ch02;
 // 교재 p.41, 42
 public class IntergerLiteralExample {
 	public static void main(String[] args) {

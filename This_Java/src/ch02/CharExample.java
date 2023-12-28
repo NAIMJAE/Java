@@ -1,4 +1,4 @@
-package ch02.sec03;
+package ch02;
 // 교재 p.44
 public class CharExample {
 	public static void main(String[] args) {
