@@ -64,7 +64,7 @@ public class WhileTest {
 		while(n <=10) {
 			n++;
 			if(n % 2 == 1) { // 홀수 필터링
-				continue;
+				continue; // 처음으로 이동
 			}
 			total += n;
 		}
