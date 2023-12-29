@@ -17,6 +17,7 @@ public class Test_01 {
 		boolean var7 = false;
 		String var8 = "Hello";
 		String var9 = null;
+		// null은 참조값 -> 참조변수의 값이 없음 -> 참조타입이여야함
 		
 		System.out.println("var1 : " + var1);
 		System.out.println("var2 : " + var2);

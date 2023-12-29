@@ -21,6 +21,7 @@ public class Test_06 {
 		
 		String result = x > y ? "x가 더 큽니다." : "y가 더 큽니다.";
 		// println에서 문자열로 받을거니 String
+		// 삼항연산자 앞에는 조건 ? 뒤로는 true면 첫번째 결과, false면 두번째 결과
 		System.out.println(result);
 		
 		sc.close();

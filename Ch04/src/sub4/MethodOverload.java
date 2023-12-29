@@ -22,6 +22,9 @@ public class MethodOverload {
 		System.out.println("result3 : " + result3);
 		System.out.println("result4 : " + result4);
 		
+		int rr = ddd(40, 20);
+		System.out.println(rr);
+		
 	}
 	
 	// Method Overloading
@@ -43,6 +46,12 @@ public class MethodOverload {
 	public static String add(String a, String b) {
 		
 		return a + b;
+	}
+	
+	// Method in Method
+	public static int ddd(int a, int b) {
+		
+		return add(44, 30) + a - b;
 	}
 	
 	
