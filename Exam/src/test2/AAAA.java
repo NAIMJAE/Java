@@ -11,6 +11,7 @@ public class AAAA {
         int var2 = sc.nextInt();
 
         System.out.print("두 수의 합 : " + (var1 + var2));
+        sc.close();
     }
 }
 
