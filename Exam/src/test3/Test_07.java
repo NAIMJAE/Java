@@ -41,7 +41,7 @@ class VipCustomer extends Customer {
 	
 	public VipCustomer(int id, String name) {
 		super(id, name); // 매개변수 값을 리턴하겠따?
-		super.grade = "VIP";
+		super.grade = "VIP"; // 직접 참조 가능 위에 protected
 		super.point = 1000;
 		super.pointRatio = 0.05;
 		this.saleRatio = 0.1;  // 상속받지 않는 변수

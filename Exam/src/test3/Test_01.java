@@ -19,6 +19,7 @@ public class Test_01 {
 		System.out.println("-----------------");
 	}
 	public static void main(String[] args) {
+		// Test_01의 타입으로 kim 변수에 Test_01클래스를 참고해 new 객체 생성 
 		Test_01 kim = new Test_01("김유신", 23);
 		Test_01 lee = new Test_01("이순신", 31);
 		// 위에서 Test_01에 들어갈 매개변수 값을 설정해서 인자값 입력

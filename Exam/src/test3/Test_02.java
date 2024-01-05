@@ -9,6 +9,7 @@ class King {
 	private int year;
 	
 	public King(int year) {
+		// this() 생성자 호출 -> 문자 하나를 호출하는
 		this("정조");
 		this.year = year;
 	}

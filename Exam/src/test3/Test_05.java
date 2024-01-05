@@ -28,9 +28,12 @@ class CarFactory {
 	public static CarFactory getInstance() {
 		return instance;
 	}
-	// 리턴타입에 왜 Vehicle??
+	// new Vehicle을 return하므로 Vehicle
 	public Vehicle createCar(String name, int price) {
 		return new Vehicle(name, price);
+		// Vehicle aa = new Vehicle(name, price);
+		// return aa;
+		
 	}
 }
 public class Test_05 {
