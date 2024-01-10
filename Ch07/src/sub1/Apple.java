@@ -5,7 +5,7 @@ package sub1;
  * 내용 : Java Object 클래스 실습
  */
 // 모든 클래스는 명시되어 있지 않지만 Object 클래스를 상속 받음
-public class Apple {
+public class Apple{
 
 	private String country;
 	private int price;
