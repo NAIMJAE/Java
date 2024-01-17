@@ -10,7 +10,7 @@ public class ObjectTest {
 		// Apple a1 = new Apple("한국", 3000); 이 아니라
 		// 다형성 가능 -> 업캐스팅
 		Object a1 = new Apple("한국", 3000);
-		Object a2 = new Apple("일본", 2000);
+		Object a2 = new Apple("한국", 3000);
 		
 		// toString은 암시적으로 호출 가능
 		System.out.println(a1);
