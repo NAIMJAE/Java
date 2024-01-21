@@ -1,4 +1,4 @@
-package ch06;
+package ch06_Class;
 // 교재 p.217, p.220
 public class C_Car {
 	// 필드 선언

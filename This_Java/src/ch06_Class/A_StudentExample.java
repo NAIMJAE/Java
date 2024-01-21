@@ -1,4 +1,4 @@
-package ch06;
+package ch06_Class;
 
 public class A_StudentExample {
 	public static void main(String[] args) {

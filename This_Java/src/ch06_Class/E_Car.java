@@ -1,4 +1,4 @@
-package ch06;
+package ch06_Class;
 // 교재 p.225
 public class E_Car {
 	// 필드 선언

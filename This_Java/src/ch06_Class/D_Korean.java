@@ -1,4 +1,4 @@
-package ch06;
+package ch06_Class;
 // 교재 p.221
 public class D_Korean {
 	// 필드 선언
