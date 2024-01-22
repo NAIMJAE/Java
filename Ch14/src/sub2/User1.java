@@ -1,0 +1,40 @@
+package sub2;
+
+public class User1 {
+	private String uid;
+	private String name;
+	private String birth;
+	private String hp;
+	private int    age;
+	
+	public int getAge() {
+		return age;
+	}
+	public String getBirth() {
+		return birth;
+	}
+	public String getUid() {
+		return uid;
+	}
+	public void setUid(String uid) {
+		this.uid = uid;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getHp() {
+		return hp;
+	}
+	public void setHp(String hp) {
+		this.hp = hp;
+	}
+	public void setBirth(String birth) {
+		this.birth = birth;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+}
