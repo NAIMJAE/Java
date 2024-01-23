@@ -8,10 +8,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
-import sub3.User4VO;
-
-
 /**
  * 날짜 : 24/01/23
  * 이름 : 박임재
