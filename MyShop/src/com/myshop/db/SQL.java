@@ -20,7 +20,7 @@ public class SQL {
 												+ "FROM `Order` AS A "
 												+ "JOIN `Product` AS B "
 												+ "ON A.`orderProduct` = B.`prodNo` "
-												+ "WHERE `orderId`='c101' "
+												+ "WHERE `orderId`=? "
 												+ "ORDER BY `orderDate` DESC";
 	public static final String UPDATE_ORDER = "";
 	public static final String DELETE_ORDER = "";

@@ -33,7 +33,7 @@ public class MyShopMain {
 			if(loginedCustomer == null) {
 				System.out.println("종료:0 | 로그인:1 | 회원가입:2 | 상품목록:3 | 주문하기:4");
 			}else {
-				System.out.println("종료:0 | 로그아웃:1 | 회원가입:2 | 상품목록:3 | 주문하기:4");	
+				System.out.println("종료:0 | 로그아웃:1 | 주문현황:2 | 상품목록:3 | 주문하기:4");	
 			}
 			
 			
@@ -91,7 +91,7 @@ public class MyShopMain {
 					
 					System.out.println("--주문현황--");
 					for(OrderDTO order : orders) {
-						System.out.printf("%s");
+						System.out.println(order);
 					}
 					
 				}

@@ -19,14 +19,12 @@ public class OrderDTO {
 	public void setProdName(String prodName) {
 		this.prodName = prodName;
 	}
-	
 	public int getPrice() {
 		return price;
 	}
 	public void setPrice(int price) {
 		this.price = price;
 	}
-	
 	public String getCompany() {
 		return company;
 	}
@@ -67,7 +65,13 @@ public class OrderDTO {
 	}
 	@Override
 	public String toString() {
-		return "[orderNo=" + orderNo + ", orderId=" + orderId + ", orderProduct=" + orderProduct
-				+ ", orderCount=" + orderCount + ", orderDate=" + orderDate + "]";
+		return orderNo + ", "
+				+ orderId + ", " 
+				+ orderProduct + ", "
+				+ prodName + ", "
+				+ price + ", "
+				+ company + ", "
+				+ orderCount + ", "
+				+ orderDate+ ", ";
 	}
 }
