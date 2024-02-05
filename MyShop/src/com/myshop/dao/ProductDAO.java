@@ -51,7 +51,7 @@ public class ProductDAO extends DBHelper{
 
 	public List<ProductDTO> selectProducts() {
 
-		try {
+		try { 
 			// 1단계, 2단계
 			// 3단계
 			// 4단계
